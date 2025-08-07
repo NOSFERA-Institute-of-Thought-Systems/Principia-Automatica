@@ -36,3 +36,9 @@ The `libCognito.wasm` module will expose the following functions to the JavaScri
 - **JS Signature:** `Module.get_version() -> string`
 - **C++ Signature:** `std::string get_version()`
 - **Returns:** The current version string of libCognito (e.g., "0.1.0").
+
+### 2.2 `compute_principal_eigenvector(vectors)`
+- **Description:** Takes a set of conceptual vectors, constructs the Hamiltonian matrix based on cosine similarity, and computes the principal eigenvector via power iteration. This is the "Soul-Hammer."
+- **JS Signature:** `Module.compute_principal_eigenvector(js_vectors: Float32Array, num_vectors: int, vector_dim: int) -> Float32Array`
+- **C++ Signature:** `emscripten::val compute_principal_eigenvector(uintptr_t js_vectors_ptr, int num_vectors, int vector_dim)`
+- **Returns:** A `Float32Array` containing the principal eigenvector.
