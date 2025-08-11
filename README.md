@@ -25,7 +25,6 @@ This research is structured as a multi-part journey, culminating in the creation
 | 5       | The Promethean Engine: A Self-Synthesizing...          | The unified theory for the core AI.               | [PLANNED]   |
 
 ---
-*(You will continue this structure for all 4 parts of the roadmap, updating the status of each paper as you complete it. It becomes a living progress tracker.)*
 
 ### The NŌSFERA Codex
 
