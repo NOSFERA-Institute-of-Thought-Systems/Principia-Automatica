@@ -1,0 +1,23 @@
+echo "# Python
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Data & Results
+data/
+results/
+*.npy
+*.csv
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
